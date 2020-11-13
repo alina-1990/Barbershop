@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="logo">
+                <a href="#">Barbershop</a>
+            </div>
+            <div class="main-navigation-wrapper">
+                <div class="container">
+                    <ul class="site-navigation">
+                    <ul class="menu" id="myTopnav">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        </a>
+                        <a href ="index.html" class="home">Информация</a>
+                        <a href ="#">Новости</a>
+                        <a href ="price.html">Прайс лист</a>
+                        <a href ="shopping.html">Магазины</a>
+                        <a href ="" >Контакты</a>
+                    </ul>
+                    <ul class="user-navigation">
+                        <li><a class="login-link" href="https://icon-icons.com/icons2/1372/PNG/32/logout_90894.png">Войти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="container-main">
+            <div class="inner-container">
+                <div class="inner-page-container">
+                    <h1 class="page-title">Прайс-лист</h1>
+                    <ul class="breadcrumbs">
+                        <li><a href="#">Главная</a></li>
+                        <li class="breadcrumbs-current">Прайс-лист</li>
+                    </ul>
+                </div>
+                <section class="inner-content">
+                    <h2 class="bg-heading">Истинно мужская классика</h2>
+                    <div class="inner-colums">
+                        <div class="inner-column-left">
+                            <h3>Мы используем только лучшие средства:</h3>
+                            <ul class="custom-list-1">
+                                <li>Baxter in California</li>
+                                <li>Mr Natty</li>
+                                <li>Suavecto</li>
+                                <li>Malin-Goetz</li>
+                                <li>Natty</li>
+                            </ul>
+                        </div>
+                        <div class="inner-column-right">
+                            <h3>Цены на услуги наших мастеров</h3>
+                            <table class="custom-table-1">
+                                <tr>
+                                    <td>Стрижка</td>
+                                    <td>150</td>
+                                </tr>
+                                <tr>
+                                    <td>Стрижка бороды</td>
+                                    <td>540</td>
+                                </tr>
+                                <tr>
+                                    <td>Накрутка усов</td>
+                                    <td>940</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="inner-colums">
+                        <h3>Несколько слов о нас:</h3>
+                        <div class="inner-column-left">
+                            <p>Наша  парикмахерская занимается только мужскими стрижками</p>
+                        </div>
+                        <div class="inner-column-right">
+                            <p>Наша мастерская находится в центре города</p>
+                        </div>
+                    </div>
+                </section>
+        </main>
+        <footer class="main-fotter">
+        <div class="fotter-contacts">
+        <p>Barbershop "Brewski<br>
+        Адрес:г.Москва, ул.Заречье 3А<br>
+        <u>Как нас найти?</u><br>
+        ТEЛЕФОН: 7 498 67 89 678
+        </p>
+        </div>
+        <div class="fotter-cocial">
+        <p>Давайте дружить</p>
+        <ul>
+        <li><a class="cocial-button" href=""><img src="https://icon-icons.com/icons2/99/PNG/32/vk_socialnetwork_17406.png"></a></li>
+        <li><a class="cocial-button"  href=""><img src="https://icon-icons.com/icons2/1211/PNG/32/1491580658-yumminkysocialmedia06_83104.png"></a></li>
+        <li><a  class="cocial-button" href=""><img src="https://icon-icons.com/icons2/41/PNG/32/facebook_social_fb_7213.png"></a></li>
+        </ul>	
+        </div>
+        <div class="fotter-copyright">
+        <b>РАЗРАБОТАНО:</b>
+        <a class="button" href="#">Grubnikova<br>Alina</a>
+        </div>
+        </div>
+        </footer>
+        <script>
+            function myFunction() {
+               var x = document.getElementById("myTopnav");
+               if (x.className === "menu") {
+                   x.className += " responsive";
+               } else {
+                   x.className = "menu";
+               }
+            }
+        </script>
+    </body>
+</html>
